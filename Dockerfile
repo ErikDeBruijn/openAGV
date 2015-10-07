@@ -6,7 +6,7 @@ RUN npm install express
 RUN npm install brickpi-raspberry
 
 # copy all files to /app dir
-COPY agv-controller/* /app 
+COPY . /app 
 
 # Run server when container runs on device
 CMD ["node", "/app/main.js"] 
