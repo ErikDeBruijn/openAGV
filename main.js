@@ -1,5 +1,6 @@
 var sensorType = process.env.ROBOT_NAME || "unnamedBot";
 
+var brickpi = require('brickpi-raspberry');
 var express = require('express');
 var app = express();
 
