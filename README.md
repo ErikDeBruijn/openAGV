@@ -20,6 +20,7 @@ The robot's code runs in a Docker container on the RPi. Deployment is done throu
 
 # Requirements
 
+ - A resin.io account
  - BrickPi (by Dexter Labs)
  - Raspberry Pi 2 + SD Card + Pi Camera
  - 2x Lego Mindstorms motors for motion (NXT or EV3)
